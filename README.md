@@ -9,6 +9,8 @@ Embeddable circuit board to boost battery input to 5V intended for small robots.
 
 ## Tech Specs
 
+[Boost IC: PAM2401](https://www.diodes.com/assets/Datasheets/PAM2401.pdf)
+
 - V_IN: 0.9 - 4.75V
 - V_OUT: 5V, 3A
 - V_REG: 3.3V, 1A
@@ -39,6 +41,7 @@ J3 (Output)
 - JP2: Enable 3.3V reg powered from 5V boost output
 - JP3: Bypass output PTC
 - JP4: Connect 3.3V reg output to Vcc _(be sure Vcc isn't connected to anything!)_
+
 _Solder jumpers are open by default, add solder to connect the pads to close them_
 
 ---
