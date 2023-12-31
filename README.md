@@ -11,6 +11,8 @@ Embeddable circuit board to boost battery input to 5V intended for small robots.
 
 [Boost IC: PAM2401](https://www.diodes.com/assets/Datasheets/PAM2401.pdf)
 
+Dimensions: 35 mm x 40 mm
+
 - V_IN: 0.9 - 4.75V
 - V_OUT: 5V, 3A
 - V_REG: 3.3V, 1A
