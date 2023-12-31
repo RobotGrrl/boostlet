@@ -9,9 +9,9 @@ Embeddable circuit board to boost battery input to 5V intended for small robots.
 
 ## Tech Specs
 
-V_IN: 0.9 - 4.75V
-V_OUT: 5V, 3A
-V_REG: 3.3V, 1A
+- V_IN: 0.9 - 4.75V
+- V_OUT: 5V, 3A
+- V_REG: 3.3V, 1A
 
 ### Connectors
 
@@ -33,6 +33,13 @@ J3 (Output)
 - V_OUT (5V)
 - GND
 - V_REG (3.3V)
+
+### Solder Jumpers
+- JP1: Bypass input PTC
+- JP2: Enable 3.3V reg powered from 5V boost output
+- JP3: Bypass output PTC
+- JP4: Connect 3.3V reg output to Vcc _(be sure Vcc isn't connected to anything!)_
+_Solder jumpers are open by default, add solder to connect the pads to close them_
 
 ---
 
