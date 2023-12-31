@@ -7,6 +7,37 @@ Embeddable circuit board to boost battery input to 5V intended for small robots.
 
 ---
 
+## Tech Specs
+
+V_IN: 0.9 - 4.75V
+V_OUT: 5V, 3A
+V_REG: 3.3V, 1A
+
+### Connectors
+
+J1
+- VCC
+- NEO_IN2
+- NEO_OUT2
+- BATT_SIG
+- NEO_IN1
+- NEO-OUT1
+- GND
+
+J2 (Input)
+- V_IN (V_BATT)
+- GND
+- VCC
+
+J3 (Output)
+- V_OUT (5V)
+- GND
+- V_REG (3.3V)
+
+---
+
+## License
+
 Boostlet! (C) Copyright Erin RobotZwrrl, Robot Missions Inc.
 
 12-30-23 v1.0
