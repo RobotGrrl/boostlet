@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Boostlet!")
-		(date "02-03-24")
-		(rev "v1.1")
+		(date "03-09-24")
+		(rev "v1.2")
 	)
 	(lib_symbols
 		(symbol "!EK_Library:PAM2401"
