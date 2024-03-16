@@ -1,0 +1,155 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,7.0.5-0*
+G04 #@! TF.CreationDate,2023-12-30T21:45:12-05:00*
+G04 #@! TF.ProjectId,boostlet,626f6f73-746c-4657-942e-6b696361645f,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Soldermask,Bot*
+G04 #@! TF.FilePolarity,Negative*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.5-0) date 2023-12-30 21:45:12*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+%AMOutline5P*
+0 Free polygon, 5 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 5*
+0 $1 to $10 corner X, Y*
+0 $11 Rotation angle, in degrees counterclockwise*
+0 create outline with 5 corners*
+4,1,5,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$1,$2,$11*%
+%AMOutline6P*
+0 Free polygon, 6 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 6*
+0 $1 to $12 corner X, Y*
+0 $13 Rotation angle, in degrees counterclockwise*
+0 create outline with 6 corners*
+4,1,6,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$1,$2,$13*%
+%AMOutline7P*
+0 Free polygon, 7 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 7*
+0 $1 to $14 corner X, Y*
+0 $15 Rotation angle, in degrees counterclockwise*
+0 create outline with 7 corners*
+4,1,7,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$1,$2,$15*%
+%AMOutline8P*
+0 Free polygon, 8 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 8*
+0 $1 to $16 corner X, Y*
+0 $17 Rotation angle, in degrees counterclockwise*
+0 create outline with 8 corners*
+4,1,8,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$1,$2,$17*%
+G04 Aperture macros list end*
+%ADD10RoundRect,0.425000X1.425000X0.425000X-1.425000X0.425000X-1.425000X-0.425000X1.425000X-0.425000X0*%
+%ADD11Outline8P,-1.850000X0.340000X-1.340000X0.850000X1.340000X0.850000X1.850000X0.340000X1.850000X-0.340000X1.340000X-0.850000X-1.340000X-0.850000X-1.850000X-0.340000X180.000000*%
+%ADD12RoundRect,0.425000X0.425000X-1.425000X0.425000X1.425000X-0.425000X1.425000X-0.425000X-1.425000X0*%
+%ADD13Outline8P,-1.850000X0.340000X-1.340000X0.850000X1.340000X0.850000X1.850000X0.340000X1.850000X-0.340000X1.340000X-0.850000X-1.340000X-0.850000X-1.850000X-0.340000X90.000000*%
+%ADD14RoundRect,0.425000X-1.425000X-0.425000X1.425000X-0.425000X1.425000X0.425000X-1.425000X0.425000X0*%
+%ADD15Outline8P,-1.850000X0.340000X-1.340000X0.850000X1.340000X0.850000X1.850000X0.340000X1.850000X-0.340000X1.340000X-0.850000X-1.340000X-0.850000X-1.850000X-0.340000X0.000000*%
+%ADD16C,1.500000*%
+G04 APERTURE END LIST*
+D10*
+G04 #@! TO.C,J3*
+X142637000Y-108204000D03*
+X142637000Y-105664000D03*
+D11*
+X142637000Y-103124000D03*
+D10*
+X142637000Y-100584000D03*
+X142637000Y-98044000D03*
+G04 #@! TD*
+D12*
+G04 #@! TO.C,J1*
+X107696000Y-113808000D03*
+X110236000Y-113808000D03*
+X112776000Y-113808000D03*
+X115316000Y-113808000D03*
+X117856000Y-113808000D03*
+X120396000Y-113808000D03*
+X122936000Y-113808000D03*
+X125476000Y-113808000D03*
+X128016000Y-113808000D03*
+X130556000Y-113808000D03*
+X133096000Y-113808000D03*
+X135636000Y-113808000D03*
+D13*
+X138176000Y-113808000D03*
+G04 #@! TD*
+D14*
+G04 #@! TO.C,J2*
+X104632000Y-85090000D03*
+X104632000Y-87630000D03*
+D15*
+X104632000Y-90170000D03*
+D14*
+X104632000Y-92710000D03*
+X104632000Y-95250000D03*
+G04 #@! TD*
+D16*
+G04 #@! TO.C,TP4*
+X115316000Y-90678000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP8*
+X118618000Y-105918000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP9*
+X116078000Y-102362000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP15*
+X126746000Y-92456000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP16*
+X129540000Y-89916000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP5*
+X136398000Y-99822000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP11*
+X134620000Y-92202000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP2*
+X133858000Y-104648000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP14*
+X125476000Y-86614000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP6*
+X112522000Y-96774000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP3*
+X108204000Y-87376000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP13*
+X139192000Y-95758000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP1*
+X136144000Y-107442000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP10*
+X118364000Y-98806000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP12*
+X125476000Y-89662000D03*
+G04 #@! TD*
+M02*
