@@ -4750,7 +4750,7 @@
 		)
 		(uuid "2ba40c0c-2377-49a1-a235-bf80f9e95ddd")
 	)
-	(text "Boostlet! (C) Copyright Erin RobotZwrrl, Robot Missions Inc.\n03-09-24 v1.2\nRobotZwrrl.xyz/boostlet\nRobotMissions.org\n\nThis hardware is released under:\nCERN Open Hardware License Version 2.0 - Permissive (CERN-OHL-P)\n\nDisclaimer: Distributed as is. No warranty is given. Not responsible \nor liable for any damage or harm that result from this product."
+	(text "Boostlet! (C) Copyright Erin RobotZwrrl, Robot Missions Inc.\n04-09-24 v1.3\nRobotZwrrl.xyz/boostlet\nRobotMissions.org\n\nThis hardware is released under:\nCERN Open Hardware License Version 2.0 - Permissive (CERN-OHL-P)\n\nDisclaimer: Distributed as is. No warranty is given. Not responsible \nor liable for any damage or harm that result from this product."
 		(exclude_from_sim no)
 		(at 300.99 264.16 0)
 		(effects
@@ -5736,7 +5736,16 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-750KFRCT-ND"
+		(property "Digikey" "738-RMCF1206FG750KCT-ND"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey2" "311-750KFRCT-ND"
 			(at 193.04 71.12 0)
 			(effects
 				(font
@@ -6316,6 +6325,15 @@
 			)
 		)
 		(property "Digikey" "1276-1075-1-ND"
+			(at 90.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey2" "399-C1206C106K3PAC7800CT-ND"
 			(at 90.17 78.74 0)
 			(effects
 				(font
@@ -7149,7 +7167,16 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-100KFRCT-ND"
+		(property "Digikey" "RMCF1206FT100KCT-ND"
+			(at 266.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey2" "311-100KFRCT-ND"
 			(at 266.7 86.36 0)
 			(effects
 				(font
@@ -7447,7 +7474,16 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-100KFRCT-ND"
+		(property "Digikey" "RMCF1206FT100KCT-ND"
+			(at 193.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey2" "311-100KFRCT-ND"
 			(at 193.04 85.09 0)
 			(effects
 				(font
@@ -9230,8 +9266,17 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-100KFRCT-ND"
+		(property "Digikey" "RMCF1206FT100KCT-ND"
 			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey2" "311-100KFRCT-ND"
+			(at 66.04 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
